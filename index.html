@@ -6,96 +6,99 @@
     <title>SHOP_BAG</title>
     <link rel="shortcut icon" href="./Screenshot 2024-11-13 075832.png" type="image/x-icon">
     <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav>
-        <DIV class="nav1"> <img src="./Screenshot 2024-11-13 075832.png" alt=""></DIV>
+        <DIV class="nav1"> <img src="./Screenshot 2024-11-13 075832.png" alt="ShopBag Logo"></DIV>
         
         <div class="Search">
             <form action="">
-                <input  type="text" placeholder="Search..">
+                <input type="text" placeholder="Search..">
                 <button type="submit">Go</button>
             </form>
         </div>
+        
+        <!-- Mobile menu toggle button -->
+        <div class="mobile-menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
         <ul class="nav2">
             <li>HOME</li>
-                <li>ABOUT</li>
-                <li>CONTACT US</li>
-                <li class="cart">🛒</li>  
+            <li>ABOUT</li>
+            <li>CONTACT US</li>
+            <li class="cart">🛒</li>  
         </ul>
     </nav>
+    
     <section id="home">
         <div class="left">
-        <h1 class="DIH1V">Sale 20% Off</h1>
-        <h1 class="H2">On Everything</h1>
-               <pre>Explicabo esse amet tempora quibusdam laudantium, laborum 
+            <h1 class="DIH1V">Sale 20% Off</h1>
+            <h1 class="H2">On Everything</h1>
+            <pre>Explicabo esse amet tempora quibusdam laudantium, laborum 
 eaque magnam fugiat hic? Esse dicta aliquid error repudiandae 
 earum suscipit fugiat molestias, veniam, vel architecto veritatis 
 delectus repellat modi impedit sequi.</pre>
-        <button >SHOP NOW</button>
-
+            <button>SHOP NOW</button>
         </div>
-        
     </section>
-<section class=" home2">
-
     
-    <article class="ari21"><h1>Why Shop With Us</h1></article>
-    
-    <section class="insidehome">
+    <section class="home2">
+        <article class="ari21"><h1>Why Shop With Us</h1></article>
         
+        <section class="insidehome">
+            <div class="card21">
+                <img src="https://pic.onlinewebfonts.com/thumbnails/icons_458391.svg" alt="Fast Delivery Icon">
+                <h3>Fast Delivery</h3>
+                <p>variations of passages of Lorem Ipsum available</p>
+            </div>
+            <div class="card21">
+                <img src="https://pic.onlinewebfonts.com/thumbnails/icons_567791.svg" alt="Free Shipping Icon">
+                <h3>Free Shiping</h3>
+                <p>variations of passages of Lorem Ipsum available</p>
+            </div>
+            <div class="card21">
+                <img src="https://pic.onlinewebfonts.com/thumbnails/icons_492909.svg" alt="Best Quality Icon">
+                <h3>Best Quality</h3>
+                <p>variations of passages of Lorem Ipsum available</p>
+            </div>
+        </section> 
+    </section>
 
-    <div class="card21">
-        <img src="https://pic.onlinewebfonts.com/thumbnails/icons_458391.svg" alt="" srcset="">
-        <h3>Fast Delivery</h3>
-        <p>variations of passages of Lorem Ipsum available</p>
-    </div>
-    <div class="card21">
-        <img src="https://pic.onlinewebfonts.com/thumbnails/icons_567791.svg" alt="" srcset="">
-        <h3>Free Shiping</h3>
-        <p>variations of passages of Lorem Ipsum available</p>
-    </div>
-    <div class="card21">
-        <img src="https://pic.onlinewebfonts.com/thumbnails/icons_492909.svg" alt="" srcset="">
-        <h3>Best Quality</h3>
-        <p>variations of passages of Lorem Ipsum available</p>
-    </div>
-</section> 
-
-</section>
-
-<section class="home3">
-    
-    <div class="right1">
-        <h1>#NewArrivals</h1>
-        <pre>
+    <section class="home3">
+        <div class="right1">
+            <h1>#NewArrivals</h1>
+            <pre>
 Vitae fugiat laboriosam officia perferendis provident aliquid 
 voluptatibus dolorem, fugit ullam sit earum id eaque nisi hic? 
 Tenetur commodi, nisi rem vel, ea eaque ab ipsa, autem 
 similique ex unde!
-         </pre>
-         <button>SHOP NOW</button>
-    </div>
-
-</section>
+            </pre>
+            <button>SHOP NOW</button>
+        </div>
+    </section>
+    
     <section id="products">
         <header>
-            <h1> Our <span>Products</span></h1>
+            <h1>Our <span>Products</span></h1>
         </header>
-       <section id="productsWrapper">
-         </section><!--productswrapper -->
-     </section>  <!-- products -->
+        <section id="productsWrapper">
+            <!-- Products will be loaded here dynamically -->
+        </section>
+    </section>  
 
-     <section id="cart">
+    <section id="cart">
         <header>
             <h1>Cart</h1>
         </header>
-
-        <article id="cartProducts"></article>
-     </section>
-
+        <article id="cartProducts">
+            <!-- Cart items will be loaded here dynamically -->
+        </article>
+    </section>
 
     <script src="./index.js"></script>
-
 </body>
 </html>
