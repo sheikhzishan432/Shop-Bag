@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+body{
+    background-color: rgb(247, 247, 247);
+    font-family: sans-serif;
+}
+nav{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+}
+nav>.nav1>img{
+    height: 60px;
+    width: 90px;
+    opacity: 1;
+    border-radius: 16px;
+    right: 20px;
+    
+}
+nav>ul{
+    /* border: 2px solid rgb(41, 179, 6); */
+  height: 100%;
+  display: flex;
+  color: azure;
+  list-style: none;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+  font-size: 30px;
+}
+nav>ul>li{
+    /* border: 1px solid rgb(247, 201, 201); */
+    padding: 3px 10px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    transition: calc(0.9);
+}
+nav>ul>.cart{
+    font-size: 40px;
+    color: brown;
+    border: 1px solid rgb(247, 201, 201);
+}
+
+nav > ul > li:hover {
+    color: cadetblue;
+    border-bottom: 1px solid rgb(160, 120, 95);
+    cursor: pointer;
+  }
+nav>.Search{
+    display: flex;
+    align-items: center ;
+    margin-left: 90px;
+  }
+  nav>form{
+    display: flex;
+    margin-left: 90px;
+  }
+  nav>.Search>form>input{
+    padding: 10px;
+    border: 5px solid #ddd;
+    outline: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 17px;
+  }
+  nav>.Search>form>input:hover{
+    border: 1px solid #72a0d4 ;
+  }
+  nav>.Search>form>button{
+    padding: 10px;
+    background-color: #fff;
+    outline: none;
+    border-radius: 5px;
+    /* margin-right: 10px; */
+    color: #333;
+    font-size: 19px;
+    cursor: pointer;
+  }
+  nav>.Search>form>button:hover{
+    background-color: #ccc;
+  }
+#home{
+    height: calc(100vh - 70px);
+    width: 100%;
+    /* border: 5px solid red; */
+    background-image: url(https://themewagon.github.io/famms/images/slider-bg.jpg);
+    
+}
+#home>.left{
+    /* border: 5px solid black; */
+    height: 100%;
+    width: 70%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    position: absolute;
+    top: 150px;
+    left: 230px;
+
+}
+#home>.left>.DIH1V{
+color: rgb(221, 58, 58);
+font-size: 70px;
+}
+#home>.left>.H2{
+    font-size: 70px;
+    color: rgb(27, 27, 61);
+}
+#home>.left>pre{
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    color: #361c34;
+}
+#home>.left>button{
+    position: relative;
+    top: 70px;
+    height: 50px;
+    width: 180px;
+    background-color: rgb(227, 83, 83);
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+.home2{
+    border: 5pcx solid black;
+    /* position: absolute; */
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(249, 249, 249);
+    /* margin-top: 50px; */
+}
+.home2>.ari21{
+    height: 100px;
+    width: 100%;
+    /* border: 4px solid aqua; */
+    /* text-align: center; */
+    margin-top: 150px;
+}
+.home2>.ari21>h1{
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+.home2>.insidehome{
+
+height: 650px;
+width: 100%;
+/* border: 3px solid black; */
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+/* background-color: #253e57; */
+
+
+}
+.home2>.insidehome>.card21{
+    height: 50%;
+    width: 25.33%;
+    /* border: 3px solid red; */
+    background-color: #253e57;
+    border-radius: 20px;
+}
+.home2>.insidehome>.card21>img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom:-20px ;
+    left: 38%;
+}
+.home2>.insidehome>.card21>h3{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top:30px ;
+}
+.home2>.insidehome>.card21>p{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top:40px ;
+    padding: 50px;
+}
+.home3{
+    border: 5pcx solid black;
+    /* position: absolute; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+    background-image: url(https://themewagon.github.io/famms/images/arrival-bg.png);
+}
+.home3>.left1>p{
+    height: 100%;
+    width: 100%;
+    }
+    .home3>.right1{
+        display: flex;
+        flex-direction: column;justify-content: center;
+        align-items: start;
+        padding: 20px;
+        gap: 20px;
+        position: relative;
+        left: 350px;
+        bottom: 30px;
+    
+    }
+    .home3>.right1>h1{
+        font-size: 50px;
+        color: rgb(26, 26, 48);
+    }
+    .home3>.right1>pre{
+        color: rgb(28, 28, 37);
+        font-size: 20px;
+    }
+    
+    .home3>.right1>button{
+        position: relative;
+    top: 30px;
+    height: 50px;
+    width: 180px;
+    background-color: rgb(227, 83, 83);
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    }
+header{
+    padding: 10px 20px;
+}
+header>h1{
+    font-size: 50px;
+    text-align: center;
+}
+header>h1>span{
+    color: red;
+}
+
+#productsWrapper {
+    min-height: 90vh;
+    max-height: 90vh;
+    width: 100%;
+    /* border: 5px solid yellow; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 50px;
+    overflow-y: scroll;
+    padding: 0 20px;
+    scrollbar-width: none;
+}
+
+#productsWrapper>.card {
+    height: 350px;
+    width: 250px;
+    background-color: white;
+    padding: 10px;
+    position: relative;
+}
+
+#productsWrapper>.card>img {
+    width: 100%;
+    height: 50%;
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+#productsWrapper>.card>img:hover {
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+#productsWrapper>.card>h2 {
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+#productsWrapper>.card>p {
+    margin: 5px 0;
+}
+
+#productsWrapper>.card>button {
+    padding: 5px 10px;
+    border: 2px solid #DC0183;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 20px;
+    left: 75px;
+    cursor: pointer;
+}
+
+#productsWrapper>.card>button:hover {
+    background-color: #DC0183;
+    color: white;
+    transition: 0.2s;
+    transform: scale(1.05);
+}
+
+#cart{
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(160, 123, 98);
+    border: 5px solid black;
+    overflow-y: scroll;
+}
+
+#cart>#cartProducts{
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid red; */
+    box-shadow:  0px, 1px, 4px rgba(0,0,0, 0.16);
+    padding: 20px 50px;
+}
+#cart>#cartProducts>article>img{
+    height: 13.5vh;
+    width: 10%;
+}
+#cart>#cartProducts>article{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:  0px, 1px, 4px rgba(0,0,0,0.16);}
+
+    
